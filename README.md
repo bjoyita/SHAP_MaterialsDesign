@@ -9,4 +9,4 @@ The code uses "composition" featurizers from Pymatgen and Matminer to extract el
 
 I have chosen  random forest algorithm to train the dataset. Please note that this dataset consists of two targets – PF and kappa which are trained individually. These are the parameters that have a direct influence on the performance of thermoelectric materials. 
 
-To find out the contribution of each element on the targets, SHAP has been employed. Please refer to https://shap-lrjball.readthedocs.io/en/latest/ for details about SHAP. Shapley value originated from the concept of game theory and was first introduced by L.S Shapley (Shapley, Lloyd S. “A value for n-person games.” Contributions to the Theory of Games 2.28 (1953): 307-317).
+To find out the contribution of each element on the targets, SHAP has been employed. Refer to https://shap-lrjball.readthedocs.io/en/latest/ for details about SHAP. Shapley value originated from the concept of game theory and was first introduced by L.S Shapley (Shapley, Lloyd S. “A value for n-person games.” Contributions to the Theory of Games 2.28 (1953): 307-317).
