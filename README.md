@@ -1,5 +1,5 @@
 # SHAP_MaterialsDesign
-The code "SHAP_PF_kappa_Github(1).ipynb" uses Pymatgen, Matminer, Scikit-learn, and SHAP libraries to highlight the contribution of features (descriptors) on the targets, namely power factor (PF) and thermal conductivity (kappa) measured at room temperature, of 204 inorganic thermoelectric materials listed in the csv file Pf_kappa_RT_1.csv. This dataset is a subset of the dataset used in https://github.com/ngs00/DopNet/tree/main/dataset derived from http://www.mrl.ucsb.edu:8080/datamine/thermoelectric.jsp.
+The code "SHAP_PF_kappa_Github(1).ipynb" uses Pymatgen, Matminer, Scikit-learn, and SHAP libraries to highlight the contribution of features (descriptors) on the targets, namely power factor (PF) and thermal conductivity (kappa) measured at room temperature, of 204 inorganic thermoelectric materials listed in the csv file Pf_kappa_RT_1.csv. This dataset is a subset of the dataset used in https://github.com/ngs00/DopNet/tree/main/dataset derived from http://www.mrl.ucsb.edu:8080/datamine/thermoelectric.jsp. The references are mentioned in https://www.nature.com/articles/s41524-021-00564-y.
 
 To run the code, one needs to install two open-source python-based materials packages - Pymatgen and Matminer along with the SHAP library. 
 
